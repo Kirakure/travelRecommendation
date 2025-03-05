@@ -1,0 +1,62 @@
+nav {
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2025/03/01/02/07/background-9438628_960_720.jpg'); /* Replace with the actual URL of your image */
+    background-size: cover;   /* Ensures the image covers the entire screen */
+    background-position: center center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents repeating the image */
+    color: white;  /* Makes text white for visibility on darker backgrounds */
+}
+
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.team-member {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #555;
+}
+
+button:hover {
+    background-color: #45a049;
+}
