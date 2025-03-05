@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Travel Recommendation</title>  
-  <link rel="stylesheet" href="./travel_recommendation.css">
-  <script src="./travel_recommendation.js"></script>      
+  <link rel="stylesheet" href="./travel_recommendation.css">     
 </head>
 <body>
     <nav><h1>Expert Travel Recommendation</h1>
@@ -14,9 +13,9 @@
           <li><a href="./contactus.html" id="contact">Contact Us </a></li>
         </ul>
         <ul>  
-          <li><input type="text" id="conditionInput" placeholder="Enter a destination or keyword">  </li>
-          <li><button id='btnSearch'>Search</button>
-          <li><button id='btnClear'>Clear</button>
+          <li><input type="text" id="search-input" placeholder="Enter a destination or keyword">  </li>
+          <li><button id='search-button'>Search</button>
+          <li><button id='clear-button'>Clear</button>
           </li>
         </ul>
       </nav>
@@ -26,6 +25,8 @@
         <p>This is a simple website with Travel Recommendations.</p>
     </div>
 </div>
-
+<div class="results" id="resultsSection">    
+</div>
+<script src="./travel_recommendation.js"></script>   
 </body>
 </html>
