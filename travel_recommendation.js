@@ -5,9 +5,9 @@ async function fetchData() {
 }
 
 // Event listener for the search button
-document.getElementById('btnSearch').addEventListener('click', async function() {
+document.getElementById('search-button').addEventListener('click', async function() {
     // Get the search input, convert it to lowercase
-    const searchTerm = document.getElementById('conditionInput').value.trim().toLowerCase();
+    const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
 
     // Fetch data
     const data = await fetchData();
